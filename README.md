@@ -3,7 +3,9 @@ Link : https://centrodph.github.io/test-lcperu/build/
 # que contiene
 
 . Varias tareas de gulp para realizar la mayor parte de las tareas para empaquetar una app.
+
 . Compilación de less
+
 . Rendizado de htmls: se pueden escribir bloques htmls por separado y combinarlos mediante inlcudes con variables.
 
 ## tasks
