@@ -22,8 +22,13 @@ const config = {
     less: './src/assets/css/modules/*.less',
     css: './build/assets/css/'
 };
-const cssDeps = ['./node_modules/bootstrap/dist/css/bootstrap.css'];
-const jsDeps = ['./node_modules/jquery/dist/jquery.min.js', './node_modules/bootstrap/dist/js/bootstrap.min.js'];
+const cssDeps = ['./node_modules/bootstrap/dist/css/bootstrap.css', './node_modules/select2/dist/css/select2.css'];
+const jsDeps = [
+    './node_modules/jquery/dist/jquery.min.js',
+    './node_modules/bootstrap/dist/js/bootstrap.min.js',
+    './node_modules/select2/dist/js/select2.js',
+    './node_modules/select2/dist/js/i18n/es.js'
+];
 
 /**
  * install css dependencies

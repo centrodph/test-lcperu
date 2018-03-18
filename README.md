@@ -1,5 +1,11 @@
 Link : https://centrodph.github.io/test-lcperu/build/
 
+# que contiene
+
+. Varias tareas de gulp para realizar la mayor parte de las tareas para empaquetar una app.
+. Compilación de less
+. Rendizado de htmls: se pueden escribir bloques htmls por separado y combinarlos mediante inlcudes con variables.
+
 ## tasks
 
 ### gulp serveFast
@@ -17,3 +23,9 @@ https://www.jqueryscript.net/table/jQuery-Plugin-For-Fixed-Table-Header-Footer-C
 
 Less mixins:
 https://github.com/madebysource/lesshat
+
+Gulp includes:
+https://www.npmjs.com/package/gulp-file-include
+
+Select2:
+https://select2.org/

@@ -1,5 +1,3 @@
-var myApp = {};
-
 //Auto Complete Paises
 const countries = [
     'Afghanistan',
