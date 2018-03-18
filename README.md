@@ -9,3 +9,11 @@ Levanta el servidor, renderiza los html, copia las images, compila los less y co
 ### gulp deps
 
 Copia, agrupa y minifica las librerias de tereceros.
+
+## Docs
+
+Table fixed:
+https://www.jqueryscript.net/table/jQuery-Plugin-For-Fixed-Table-Header-Footer-Columns-TableHeadFixer.html
+
+Less mixins:
+https://github.com/madebysource/lesshat

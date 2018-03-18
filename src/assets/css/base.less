@@ -1,3 +1,52 @@
+@import '../../../node_modules/lesshat/lesshat.less';
+@import 'modules/float-label';
+
+@header-background: #e31d1a;
+@input-border-color: #ccc;
+@input-border-focus-valid: #00bdd5;
+
 body {
-    background: green;
+}
+
+header {
+    background: @header-background;
+    color: #fff;
+    padding: 20px 0;
+    h1 {
+        font-size: 14px;
+    }
+}
+
+.lc-block {
+    padding: 40px 0;
+
+    .lc-block-border {
+        padding: 20px;
+        .box-shadow(0 0 7px rgba(0, 0, 0, 0.31));
+        .border-radius(10px);
+    }
+}
+
+input.form-control {
+    border: none;
+    border-bottom: solid 1px @input-border-color;
+    .border-radius(0);
+    &:focus {
+        .box-shadow(none);
+    }
+}
+
+.has-float-label input ~ span.focus-border {
+    width: 100%;
+    top: auto;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background: @input-border-focus-valid;
+    transform: scaleX(0);
+    transition: transform 450ms ease-in-out;
+}
+.has-float-label input:focus ~ span.focus-border,
+.has-float-label textarea:focus ~ span.focus-border {
+    transform: scaleX(1);
 }
