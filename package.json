@@ -1,0 +1,38 @@
+{
+    "name": "testlcperu",
+    "version": "1.0.0",
+    "description": "website",
+    "main": "index.js",
+    "homepage": "http://centrodph.github.io/test-lcperu",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/centrodph/test-lcperu.git"
+    },
+    "keywords": ["html5", "gulp", "less"],
+    "author": "Gerardo Perrucci",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.23.5",
+        "concat": "^1.0.3",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^4.1.0",
+        "gulp-clean-css": "^3.9.3",
+        "gulp-concat": "^2.6.1",
+        "gulp-file-include": "^2.0.1",
+        "gulp-imagemin": "^4.1.0",
+        "gulp-less": "^3.4.0",
+        "gulp-load-plugins": "^1.5.0",
+        "gulp-plumber": "^1.2.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-uglify": "^3.0.0",
+        "imagemin-pngquant": "^5.1.0",
+        "uglify": "^0.1.5"
+    },
+    "dependencies": {
+        "bootstrap": "^4.0.0",
+        "jquery": "^3.3.1"
+    }
+}
