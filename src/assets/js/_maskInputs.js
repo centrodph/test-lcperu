@@ -1,3 +1,7 @@
 const initMaskedInputs = () => {
-    $('.maskdocument').mask('000.000.000', { reverse: true });
+	$('.maskdocument').mask('AAAAAAAAAAAAA', {
+		translation: {
+			A: { pattern: /[A-Za-z0-9]/ }
+		}
+	});
 };
