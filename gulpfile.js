@@ -27,7 +27,8 @@ const jsDeps = [
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/bootstrap/dist/js/bootstrap.min.js',
     './node_modules/select2/dist/js/select2.js',
-    './node_modules/select2/dist/js/i18n/es.js'
+    './node_modules/select2/dist/js/i18n/es.js',
+    './node_modules/jquery-mask-plugin/dist/jquery.mask.js'
 ];
 
 /**

@@ -56,10 +56,22 @@ select.form-control {
 SELECT 2
 **/
 .select2-container--default .select2-selection--single {
-    border: none;
-    height: 36px;
-    padding: 0.375rem 0.75rem;
     .select2-selection__rendered {
         line-height: 36px;
+        padding: 0 0.75rem;
+    }
+}
+
+.select2-container {
+    height: 36px;
+    border-bottom: solid 1px @input-border-color;
+    .select2-selection--single {
+        border: none;
+    }
+}
+
+.field-select-autocomplete {
+    label {
+        display: none;
     }
 }

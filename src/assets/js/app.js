@@ -1,1 +1,3 @@
-var myApp = {};
+$(document).ready(function() {
+    initMaskedInputs();
+});

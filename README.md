@@ -31,3 +31,6 @@ https://www.npmjs.com/package/gulp-file-include
 
 Select2:
 https://select2.org/
+
+Jquery Mask:
+http://igorescobar.github.io/jQuery-Mask-Plugin/
