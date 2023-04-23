@@ -22,7 +22,7 @@
     "browser-sync": "^2.23.5",
     "concat": "^1.0.3",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^3.9.3",
     "gulp-concat": "^2.6.1",
     "gulp-file-include": "^2.0.1",
